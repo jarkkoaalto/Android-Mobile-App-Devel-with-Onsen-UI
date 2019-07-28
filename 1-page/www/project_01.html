@@ -1,0 +1,52 @@
+<!--
+    Project Adder
+
+    Using what you have learnt so far, try to create an app that can input two numbers 
+    and add them and display the result. The user interface should look like above.
+
+    Add 2 numbers (text)
+    Enter 2 numbers and click add (text)
+    Enter first number (textbox)
+    Enter second number (textbox)
+    Add (button)
+    Clear (button)
+
+    Tip: You will to convert the input into numbers before you can add them.
+    There are several ways to convert a stirng into a number, eg.
+    Number()
+    parseInt
+    ...
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <title>Project Adder</title>
+    <link rel="stylesheet" href="css/onsenui.css" />
+    <link rel="stylesheet" href="css/onsen-css-components.min.css" />
+  </head>
+  <body>
+    <ons-page>
+      <ons-toolbar>
+        <div class="center">My first ons page</div>
+      </ons-toolbar>
+      <div style="text-align: center">
+        <p>Enter 2 Numbers and Click add</p>
+        <p><ons-input id="firstnumber" modifier="underbar" placeholder="Add First Number" float></ons-input></p>
+        <p><ons-input id="secondnumber" modifier="underbar" placeholder="Add Second Number" float></ons-input></p>
+
+        <p><ons-button onclick="Add()">Add</ons-button></p>
+        <p><ons-button id="myname" onclick="Clearall()">Clear</ons-button></p>
+      </div>
+    </ons-page>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/onsenui.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
