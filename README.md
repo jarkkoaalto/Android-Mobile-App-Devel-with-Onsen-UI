@@ -17,3 +17,7 @@ phone project. Copy js and ccs folders in you www folder.
 ## 1 page application ##
 
 ![Screenshot](images/1Page.png)
+
+## Assignment 01 - Adder ##
+
+![Screenshot](images/assignment01.png)

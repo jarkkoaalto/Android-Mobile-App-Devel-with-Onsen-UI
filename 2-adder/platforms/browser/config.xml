@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="onsen.adder.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>2-adder</name>
+    <description>
+        A simple calculator app
+    </description>
+    <author email="paulchin20@gmail.com" href="https://androidresearch.net">
+        Android Research
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <icon src="icon144.png" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="orientation" value="portrait" />
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
+</widget>
